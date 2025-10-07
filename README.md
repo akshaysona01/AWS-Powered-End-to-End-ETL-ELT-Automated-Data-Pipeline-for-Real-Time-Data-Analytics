@@ -6,6 +6,8 @@ This project was developed for CarePlus, a healthcare support company that gener
 ## Architecture Overview
 <img width="12599" height="3510" alt="png3xwoembed" src="https://github.com/user-attachments/assets/20d23a70-fa88-41b7-9586-2bfe102eabac" />
 
+
+
 ### Data Flow:
 **Source Data → Amazon S3 → AWS Lambda → AWS Glue → Amazon Redshift → Power BI**
 
@@ -19,6 +21,8 @@ Implemented lifecycle policies and versioning in S3 to optimize storage costs, m
 <img width="2550" height="912" alt="iam_roles" src="https://github.com/user-attachments/assets/196f4380-fd8e-4452-a6f9-301f02e03d45" />
 
 
+
+
 ### Data Transformation (Glue + Lambda):
 <img width="2550" height="919" alt="lambda_functions" src="https://github.com/user-attachments/assets/77cd7758-13aa-48bf-9e7c-0b333086b1ee" />
 AWS Glue performs data cleaning, deduplication, and schema alignment using PySpark.
@@ -28,22 +32,30 @@ Developed AWS Lambda functions to automate ETL/ELT workflows, triggering AWS Glu
 Configured S3 event triggers and SNS notifications to automatically trigger Lambda functions when new data files were uploaded, enabling real-time pipeline execution.
 Implemented serverless orchestration using Lambda to manage ETL task scheduling, error handling, and pipeline monitoring for improved reliability.
 
+
+
 ### Ad-Hoc Analysis (AWS Athena):
 <img width="2551" height="925" alt="athena_ad_hoc_analysis" src="https://github.com/user-attachments/assets/5276080f-04b8-456b-acbe-b5f30f7d0dc6" />
 Utilized AWS Athena for ad-hoc querying and analysis directly on S3 processed data, eliminating the need for data movement.
 Created SQL-based interactive queries in Athena to validate ETL outputs and perform quick data quality checks.
 Improved analytical efficiency by reducing query response time and enabling on-demand data exploration over large datasets.
 
+
+
 ### Data Loading (Redshift):
 <img width="2554" height="911" alt="redshift_query" src="https://github.com/user-attachments/assets/56655e94-ead2-4a82-b0ab-3e13a029e902" />
 <img width="2546" height="913" alt="redshift_database" src="https://github.com/user-attachments/assets/1b5c0bf8-f1c1-4cbb-b400-836e2b5c1658" />
 Configured Amazon Redshift as a centralized data warehouse to store and analyze transformed data for business intelligence reporting.
+
+
 
 ### Data Visualization (Power BI):
 <img width="1668" height="818" alt="support_tickets_power_bi" src="https://github.com/user-attachments/assets/4a9831e3-09f8-4cc9-b0b4-9a4a9b0539cb" />
 <img width="1423" height="790" alt="support_logs_power_bi" src="https://github.com/user-attachments/assets/78853196-e7e2-464b-b468-cc7f1aec1454" />
 Power BI connects securely to Redshift to create interactive dashboards.
 Key metrics and KPIs are visualized for decision-makers.
+
+
 
 ## AWS Services Used:
 
