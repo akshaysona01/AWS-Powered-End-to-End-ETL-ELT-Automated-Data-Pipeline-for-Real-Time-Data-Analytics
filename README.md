@@ -30,5 +30,15 @@ Configured Amazon Redshift as a centralized data warehouse to store and analyze 
 
 ### Data Visualization (Power BI):
 Power BI connects securely to Redshift to create interactive dashboards.
-
 Key metrics and KPIs are visualized for decision-makers.
+
+
+| Service             | Purpose                                        |
+| ------------------- | ---------------------------------------------- |
+| **Amazon S3**       | Data lake for raw and processed data storage   |
+| **AWS Glue**        | ETL transformation and data catalog management |
+| **AWS Lambda**      | Serverless orchestration and automation        |
+| **Amazon Athena**   | Ad-hoc SQL querying over S3 data               |
+| **Amazon Redshift** | Centralized data warehouse for analytics       |
+| **AWS CloudWatch**  | Monitoring, logging, and ETL job alerts        |
+
