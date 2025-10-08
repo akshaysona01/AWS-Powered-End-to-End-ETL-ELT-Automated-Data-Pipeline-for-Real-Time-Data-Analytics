@@ -3,6 +3,12 @@
 ## Project Overview
 This project was developed for CarePlus, a healthcare support company that generates large volumes of system logs and customer support tickets daily. Managing and analyzing this raw data manually was inefficient and error-prone. To solve this, we designed an end-to-end data pipeline using AWS services. The pipeline collects raw data from logs and tickets, stores it securely in S3, processes and cleans it with AWS Glue, and makes it queryable using Athena. Finally, insights are visualized in Power BI dashboards, helping CarePlus improve customer service efficiency, issue resolution times, and overall decision-making. This project demonstrates an end-to-end ETL/ELT data pipeline architecture built on AWS, designed to automate data ingestion, transformation, and visualization from Amazon S3 to Power BI. The solution enables automated, scalable, serverless, and cost-efficient data processing for business intelligence reporting and analytics.
 
+## Live Dashboard:
+https://app.powerbi.com/view?r=eyJrIjoiNGE1MzRjN2YtMzAwYy00YWJmLWE0OTAtYzM3YzIxNDFmYzY4IiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9
+
+## Presentation:
+https://www.canva.com/design/DAG0h0V4MDY/WoBa6XU63b9sNvZj2u7yCQ/view?utm_content=DAG0h0V4MDY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h48701fd178
+
 ## Architecture Overview
 <img width="12599" height="3510" alt="png3xwoembed" src="https://github.com/user-attachments/assets/20d23a70-fa88-41b7-9586-2bfe102eabac" />
 
