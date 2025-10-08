@@ -9,6 +9,9 @@ https://app.powerbi.com/view?r=eyJrIjoiNGE1MzRjN2YtMzAwYy00YWJmLWE0OTAtYzM3YzIxN
 ## Presentation:
 https://www.canva.com/design/DAG0h0V4MDY/WoBa6XU63b9sNvZj2u7yCQ/view?utm_content=DAG0h0V4MDY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h48701fd178
 
+## Video Presentation:
+https://youtu.be/hSt7Orcy54Q
+
 ## Architecture Overview
 <img width="12599" height="3510" alt="png3xwoembed" src="https://github.com/user-attachments/assets/20d23a70-fa88-41b7-9586-2bfe102eabac" />
 
